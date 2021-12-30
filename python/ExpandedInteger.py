@@ -1,3 +1,5 @@
+# Instructions: https://www.codewars.com/kata/5842df8ccbd22792a4000245
+
 """
 Prendre chaque caractère un par un
 Si le caractère n'est pas 0 -> Ajouter ce caractère avec x zéros
