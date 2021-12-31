@@ -1,8 +1,8 @@
 # Codewars
 
-[Codewars](https://www.codewars.com) is a coding practice site for all programmers where you can learn various programming languages.
-Here are some programming challenges that I completed on [Codewars](https://www.codewars.com).<br>
-- Click [here](https://www.codewars.com/users/Stolexx_) to see my profile!
+<b>[Codewars](https://www.codewars.com)</b> is a <b>coding practice site</b> for all programmers where you can <b>learn and practice</b> various programming languages.
+Here are some <b>programming challenges</b> that I completed on [Codewars](https://www.codewars.com).<br>
+- Click [here](https://www.codewars.com/users/Stolexx_) to see my <b>profile</b>!
 
 ## Explore the repository
 
