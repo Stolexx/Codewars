@@ -1,8 +1,8 @@
 # Codewars
 
 [Codewars](https://www.codewars.com) is a coding practice site for all programmers where you can learn various programming languages.
-Here are some programming challenges that I completed on [Codewars](https://www.codewars.com)<br>
-Click [here](https://www.codewars.com/users/Stolexx_) to see my profile!
+Here are some programming challenges that I completed on [Codewars](https://www.codewars.com).<br>
+- Click [here](https://www.codewars.com/users/Stolexx_) to see my profile!
 
 ## Explore the repository
 
@@ -12,7 +12,7 @@ Click [here](https://www.codewars.com/users/Stolexx_) to see my profile!
 ## A few examples
 ### Python
 
-<i>Some examples of challenges I have done in Python for Codewars</i><br>
+<i>Some examples of challenges I have done in Python for [Codewars](https://www.codewars.com)</i><br>
 <br>
 
 `1.` [MaxAndMin.py](https://github.com/Stolexx/Codewars/blob/main/python/MaxAndMin.py)
@@ -51,4 +51,51 @@ def namelist(names):
 
 ### Java
 
-<i>Coming soon...</i>
+<i>Some examples of challenges I have done in Java for [Codewars](https://www.codewars.com)</i><br>
+<br>
+
+`1.` [DRoot.java](https://github.com/Stolexx/Codewars/blob/main/java/DRoot.java)
+
+```java
+// "Racine digitale" d'un nombre (https://en.wikipedia.org/wiki/Digital_root)
+
+public static int digital_root(int n) {
+    int result = n;
+    while (String.valueOf(result).length() > 1) {
+        int math = 0;
+        for(String c : String.valueOf(result).split("(?<=.)")) {
+            math += Integer.valueOf(c);
+        }
+        result = math;
+    }
+    return result;
+}
+```
+
+`2.` [BinaryArrayToNumber.java](https://github.com/Stolexx/Codewars/blob/main/java/BinaryArrayToNumber.java)
+
+```java
+// Conversion d'une liste de nombres binaires en un entier
+
+public static int ConvertBinaryArrayToInt(List<Integer> binary) {
+    String result = "";
+    for (Integer b : binary) {
+        result += b;
+    }
+    return Integer.parseInt(result, 2);
+}
+```
+
+`3.` [DigPow.java](https://github.com/Stolexx/Codewars/blob/main/java/DigPow.java)
+
+```java
+// Instructions : https://www.codewars.com/kata/5552101f47fc5178b1000050
+
+public static long digPow(int n, int p) {
+    int sum = 0;
+    for (int i = p; i < String.valueOf(n).length() + p; i++) {
+        sum += Math.pow(Integer.parseInt(String.valueOf(Integer.toString(n).toCharArray()[i-p])), i);
+    }
+    return ((float)sum / n == (int)sum / n ? sum / n : -1);
+}
+```
