@@ -7,7 +7,8 @@ Here are some <b>programming challenges</b> that I completed on [Codewars](https
 ## Explore the repository
 
 `1.` [Python](https://github.com/Stolexx/Codewars/tree/main/python)<br>
-`2.` [Java](https://github.com/Stolexx/Codewars/tree/main/java)
+`2.` [Java](https://github.com/Stolexx/Codewars/tree/main/java)<br>
+`3.` [OCaml](https://github.com/Stolexx/Codewars/tree/main/ocaml)
 
 ## A few examples
 ### Python
